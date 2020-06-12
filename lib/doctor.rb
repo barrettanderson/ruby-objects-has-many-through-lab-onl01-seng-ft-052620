@@ -4,6 +4,7 @@ class Doctor
   @@all = []
   def initialize (name)
     @name = name
+    @appointments = []
     @@all << self
   end
 
