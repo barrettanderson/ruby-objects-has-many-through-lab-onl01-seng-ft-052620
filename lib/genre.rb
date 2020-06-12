@@ -12,12 +12,12 @@ class Genre
       song.genre == self
     end
   end
-  #
-  # def artists
-  #   artists.map do |song|
-  #     song.artist
-  #   end
-  # end
+
+  def artists
+    song.map do |song|
+      songs.artist
+    end
+  end
 
   def self.all
     @@all
