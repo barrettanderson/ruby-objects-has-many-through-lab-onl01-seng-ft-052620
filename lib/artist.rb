@@ -12,7 +12,8 @@ class Artist
   end
 
   def songs
-
+    @@all.each do |song|
+      song.artist
   end
 
 end
