@@ -18,14 +18,6 @@ class Doctor
     appointment
   end
 
-  # def appointments
-  #   Appointment.new.select do |appointment|
-  #     appointment.doctor == self
-  #   end
-  # end
-  #
-  # def patients
-  #
-  # end
+
 
 end
