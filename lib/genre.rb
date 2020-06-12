@@ -1,6 +1,6 @@
 class Genre
-
-  def initialize
+  attr_accessor :name
+  def initialize(name)
 
   end
 
