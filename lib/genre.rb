@@ -17,7 +17,7 @@ class Genre
   #   artists.map do |song|
   #     song.artist
   #   end
-  end
+  # end
 
   def self.all
     @@all
