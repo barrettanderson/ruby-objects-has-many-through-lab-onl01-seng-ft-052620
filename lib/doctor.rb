@@ -22,7 +22,7 @@ class Doctor
     end
   end
 
-  def patient
+  def patients
 
   end
 
